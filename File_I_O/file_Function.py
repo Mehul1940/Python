@@ -1,0 +1,11 @@
+f=open('myfile.txt')
+# data=f.readlines()
+# data=f.readline()
+# data1=f.readline()
+# data2=f.readline()
+# data=f.readable() .
+data=f.read()
+print(data,type(data))
+# print(data1,type(data1))
+# print(data2,type(data2))
+f.close()   
